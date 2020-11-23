@@ -8,6 +8,8 @@ public class UlohaKonverterStopy {
 		System.out.println("--- Konverter stopy -> metre ---");
 		System.out.println("Zadaj stopy: ");
 		int stopy = sc.nextInt();
+		//double stopy = sc.nextDouble();
+		
 				
 		double metre = stopy * 0.305;
 		
