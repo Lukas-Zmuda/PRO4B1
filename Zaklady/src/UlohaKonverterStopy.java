@@ -10,10 +10,14 @@ public class UlohaKonverterStopy {
 		int stopy = sc.nextInt();
 		//double stopy = sc.nextDouble();
 		
-				
-		double metre = stopy * 0.305;
+		if(stopy > 0) {
+			double metre = stopy * 0.305;
+			System.out.println(stopy + " stop je " + metre + " metrov.");
+			System.out.printf("%d stop je %.2f metrov.", stopy, metre);
+		}else {
+			System.out.println("Zadal si nespravny vstup!");
+		}
 		
-		System.out.println(stopy + " stop je " + metre + " metrov.");
 	}
 
 }
