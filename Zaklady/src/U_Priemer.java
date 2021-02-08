@@ -20,7 +20,7 @@ public class U_Priemer {
 			suma += cislo;
 		}
 		
-		System.out.println("Priemer: \t" + (suma / pocetCisel));
+		System.out.println("Priemer: " + (suma / pocetCisel));
 
 	}
 
