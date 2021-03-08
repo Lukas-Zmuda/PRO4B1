@@ -17,4 +17,6 @@ public class U_Metody {
 		return 0;
 	}
 
+	//TODO metoda poleOdzadu
+	//TODO metoda opacnePole
 }
